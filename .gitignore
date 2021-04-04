@@ -1,6 +1,6 @@
 # Copyrighted files
 /libraries
-/mods/
+/mods/*.jar
 /*.jar
 
 # Uncessary logs
