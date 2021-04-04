@@ -131,3 +131,4 @@
 		#Maximum number of blocks in a vein of lead.
 		#Range: 1 ~ 512
 		maxVeinSize = 8
+
