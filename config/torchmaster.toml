@@ -1,7 +1,5 @@
 
 [General]
-	#Should pillager patrols be blocked?
-	blockPatrols = true
 	#The maximum amount of invisble lights a feral flare lantern can place. Set to 0 to disable light placement.
 	#Warning: Setting this value too high in conjunction with the feralFlareMinLightLevel and Radius can lead to world corruption!
 	#(Badly compressed packet error)
@@ -19,16 +17,12 @@
 	#Durability of the frozen pearl. Each removed light will remove one charge from the pearl. Set to 0 to disable durability
 	#Range: 0 ~ 32767
 	frozenPearlDurability = 1024
-	#Should phantoms be blocked?
-	blockPhantoms = true
 	#The radius in which the feral flare should try to place lights
 	#Range: 1 ~ 127
 	feralFlareRadius = 16
 	#The target minimum light level to place lights for
 	#Range: 0 ~ 15
 	feralFlareMinLightLevel = 10
-	#Should cats be blocked?
-	blockCats = true
 	#Configures the spawn check to be more aggressive, effectivly overriding the CheckSpawn results of other mods
 	aggressiveSpawnChecks = false
 	#Show additional information in the tooltip of certain items and blocks
