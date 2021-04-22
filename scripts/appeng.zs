@@ -25,5 +25,3 @@ craftingTable.addShaped("ct_ae2_silicon_press", ae2_silicon_press, [[ironIngot, 
 	experience: 0.1 as float,
 	cookingtime: 100
 });
-
-<recipetype:thermal:smelter>.addRecipe("ct_fluix_crystal", [<item:appliedenergistics2:fluix_crystal> % 200], [<item:appliedenergistics2:charged_certus_quartz_crystal>, <tag:items:forge:gems/quartz>, <tag:items:forge:dusts/redstone>], 0, 5000);
