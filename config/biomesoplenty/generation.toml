@@ -16,5 +16,5 @@
 	use_bop_nether = true
 	#The size of generated rivers.
 	#Allowed Values: TINY, SMALL, MEDIUM, LARGE, HUGE
-	river_size = "LARGE"
+	river_size = "MEDIUM"
 

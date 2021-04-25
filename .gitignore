@@ -9,5 +9,28 @@
 /.mixin.out/
 *.bak
 
-# The world. Its symlinked, so we can't see it anyway.
-/world
+# Region data
+/world/advancements/
+/world/astralsorcery/
+/world/camera_images/
+/world/data/
+/world/datapacks/
+/world/deaths/
+/world/DIM1/data/
+/world/DIM1/poi/
+/world/DIM1/region/
+/world/DIM-1/data/
+/world/DIM-1/poi/
+/world/DIM-1/region/
+/world/dimensions/
+/world/EnderStorage/
+/world/observerlib/
+/world/playerdata/
+/world/pneumaticcraft/
+/world/poi/
+/world/region/
+/world/stats/
+/world/icon.png
+/world/level.*
+/world/session.lock
+/world/xaeromap.txt
