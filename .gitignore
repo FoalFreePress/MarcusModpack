@@ -3,11 +3,12 @@
 /mods/*.jar
 /*.jar
 
-# Uncessary logs
+# Uncessary logs & files
 /crash-reports/
 /logs/
 /.mixin.out/
 *.bak
+minecraft.pid
 
 # Region data
 /world/advancements/
