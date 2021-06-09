@@ -25,6 +25,7 @@ minecraft.pid
 /world/DIM-1/region/
 /world/dimensions/
 /world/EnderStorage/
+/world/minecolonies/
 /world/observerlib/
 /world/playerdata/
 /world/pneumaticcraft/
@@ -34,4 +35,6 @@ minecraft.pid
 /world/icon.png
 /world/level.*
 /world/session.lock
+/world/structurize/
+/world/touchfile
 /world/xaeromap.txt

@@ -1,6 +1,6 @@
 #! /bin/bash
 
-MINECRAFTJAR=forge-1.16.5-36.1.24.jar
+MINECRAFTJAR=forge-1.16.5-36.1.31.jar
 JAVA_EXE="~/bin/jdk15/bin/java"
 
 # change java memory here:
