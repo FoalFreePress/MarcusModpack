@@ -4,7 +4,7 @@ MINECRAFTJAR=forge-1.16.5-36.1.31.jar
 JAVA_EXE="~/bin/jdk15/bin/java"
 
 # change java memory here:
-export RAM=15G
+export RAM=8G
 
 
 export LOCKFILE=minecraft.pid
