@@ -3,7 +3,7 @@
 [gameplay]
 	#Max amount of undos saved. A higher number requires more memory.
 	#Range: 0 ~ 100
-	maxCachedChanges = 0
+	maxCachedChanges = 10
 	#Should player-made schematics be allowed?
 	allowPlayerSchematics = false
 	#Should the default schematics be ignored (from the jar)?
