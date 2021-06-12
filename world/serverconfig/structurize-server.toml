@@ -7,7 +7,7 @@
 	#Should player-made schematics be allowed?
 	allowPlayerSchematics = false
 	#Should the default schematics be ignored (from the jar)?
-	ignoreSchematicsFromJar = true
+	ignoreSchematicsFromJar = false
 	#Max world operations per tick (max blocks to place, remove, or replace).
 	#Range: 0 ~ 100000
 	maxOperationsPerTick = 1000

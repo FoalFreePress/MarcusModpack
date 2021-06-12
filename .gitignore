@@ -17,6 +17,7 @@ minecraft.pid
 /world/data/
 /world/datapacks/
 /world/deaths/
+/world/delete-world.sh
 /world/DIM1/data/
 /world/DIM1/poi/
 /world/DIM1/region/
