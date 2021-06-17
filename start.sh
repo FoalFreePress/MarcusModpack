@@ -33,6 +33,10 @@ eval $JAVA_EXE -jar -Xmx$RAM --illegal-access=permit -Dmixin.debug.export=true -
 
 ~/bin/backup-minecraft-full.sh
 
+git add .
+git commit -m "Sync from Server."
+git push
+
 echo restarting in 5 seconds...
 sleep 1
 echo restarting in 4 seconds...
