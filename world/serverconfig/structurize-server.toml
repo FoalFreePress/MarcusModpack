@@ -8,6 +8,8 @@
 	allowPlayerSchematics = false
 	#Should the default schematics be ignored (from the jar)?
 	ignoreSchematicsFromJar = false
+	#Currently supports 'default', 'inwardcircle' and 'inwardcircleheight1' to 'inwardcircleheight4' 
+	iteratorType = "default"
 	#Max world operations per tick (max blocks to place, remove, or replace).
 	#Range: 0 ~ 100000
 	maxOperationsPerTick = 1000
