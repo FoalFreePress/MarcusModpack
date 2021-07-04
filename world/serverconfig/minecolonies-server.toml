@@ -254,9 +254,6 @@
 	#Minimum number of consecutive rails for citizens to use them. [Default: 8, min: 5, max: 100]
 	#Range: 5 ~ 100
 	minimumrailstopath = 8
-	#Max amount of nodes (positions) to map during pathfinding. Lowering increases performance, but might lead to pathing glitches. [Default: 8000, min: 1, max: 10000]
-	#Range: 1 ~ 10000
-	pathfindingmaxnodes = 8000
 
 #All configurations related to the request system
 [requestSystem]
