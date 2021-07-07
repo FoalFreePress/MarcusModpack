@@ -114,7 +114,7 @@
 		#Enable the security system for players to prevent others from accessing their machines. Does NOT affect Frequencies.
 		allowProtection = true
 		#Ops can bypass the block security restrictions if enabled.
-		opsBypassRestrictions = true
+		opsBypassRestrictions = false
 
 	#Laser Settings
 	[general.laser]
