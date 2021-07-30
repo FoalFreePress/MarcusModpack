@@ -1,7 +1,6 @@
 #! /bin/bash
 
-MINECRAFTJAR=forge-1.16.5-36.1.32.jar
-JAVA_EXE="~/bin/jdk15/bin/java"
+MINECRAFTJAR=forge-1.16.5-36.2.2.jar
 
 # change java memory here:
 export RAM=8G
@@ -29,7 +28,7 @@ do
 
 ulimit -a
 
-eval $JAVA_EXE -jar -Xmx$RAM --illegal-access=permit -Dmixin.debug.export=true -Dmixin.debug.verbose=true -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M $MINECRAFTJAR nogui
+java -jar -Xmx$RAM -Dmixin.debug.export=true -Dmixin.debug.verbose=true -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M $MINECRAFTJAR nogui
 
 rm -v ~/servers/MarcusModpack/world/minecolonies/*.zip
 
